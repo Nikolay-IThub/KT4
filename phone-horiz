@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Grid Repeater - Phone Horiz</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .container {
+                grid-template-columns: 1fr;
+            }
+            .card {
+                width: 380px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card"><h2>01</h2><p>Sample text. Click to select the text box</p></div>
+            <div class="card"><h2>02</h2><p>Sample text. Click to select the text box</p></div>
+            <div class="card"><h2>03</h2><p>Sample text. Click to select the text box</p></div>
+            <div class="card"><h2>04</h2><p>Sample text. Click to select the text box</p></div>
+            <div class="card"><h2>05</h2><p>Sample text. Click to select the text box</p></div>
+            <div class="card"><h2>06</h2><p>Sample text. Click to select the text box</p></div>
+        </div>
+    </body>
+</html>
